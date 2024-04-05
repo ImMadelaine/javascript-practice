@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            function sumarArreglo(arr){
+                if (arr.length == 0){
+                    return 0;
+                }
+
+                let sumArr = 0;
+                for (let i=0; i<arr.length; i++){
+                    sumArr = sumArr + arr[i];
+                    
+                }
+
+                return sumArr;
+            }
+
+            console.log(sumarArreglo([1,2,3,4.5,4.3]));
+            console.log(sumarArreglo([]));
+            console.log(sumarArreglo([-2.398]));
+        </script>
+    </body>
+</html>
